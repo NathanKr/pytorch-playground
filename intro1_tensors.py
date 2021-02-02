@@ -92,4 +92,3 @@ print("n after adding 1 to t\n", n)
 
 t1 = torch.from_numpy(n)
 print(f"t1 : created from numpy\n{t1}")
-
