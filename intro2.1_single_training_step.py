@@ -18,5 +18,5 @@ loss.backward()
 
 optim = torch.optim.SGD(model.parameters(), lr=1e-2, momentum=0.9)
 
-# gradient descent
+# stochastic gradient descent step
 optim.step()
